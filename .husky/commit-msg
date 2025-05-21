@@ -3,9 +3,10 @@ if ! head -1 "$1" | grep -qE "^(feat|fix|chore|docs|test|style|refactor|perf|bui
     echo "Commit messages should start with feat|fix|chore|docs|test|style|refactor|perf|build|ci|revert|change" >&2
     echo "Example -> docs: Update README" >&2
     echo "Automatically prepending 'change:' to commit msg " >&2
-    OLDMSG=$(cat "${1}")
-    echo ${OLDMSG} | sed -e 's/^/change\: /'
-    cat "${1}" 
+    COMMITMSG=$(cat "${1}")
+    echo ${COMMITMSG} | sed -Ei 's/^/change\: /'
+    echo "${COMMITMSG}" 
+    git commit -S -msg "${COMMITMSG}"
     exit 0
 fi
 if ! head -1 "$1" | grep -qE "^.{1,88}$"; then
