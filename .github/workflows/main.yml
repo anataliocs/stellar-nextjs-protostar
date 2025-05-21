@@ -6,7 +6,7 @@ on:
       - main
 
   pull_request:
-    types: [opened, synchronize, reopened]
+    types: [ opened, synchronize, reopened ]
 
 jobs:
   prettier-check:
@@ -16,13 +16,13 @@ jobs:
       SKIP_ENV_VALIDATION: ${{ secrets.SKIP_ENV_VALIDATION }}
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Setup pnpm
-        uses: pnpm/action-setup@v2
+        uses: pnpm/action-setup@v4
         with:
-          version: 8.10.2
+          version: 10
       - name: Setup node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: 18
       - name: Install dependencies
@@ -37,13 +37,13 @@ jobs:
       SKIP_ENV_VALIDATION: ${{ secrets.SKIP_ENV_VALIDATION }}
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Setup pnpm
-        uses: pnpm/action-setup@v2
+        uses: pnpm/action-setup@v4
         with:
-          version: 8.10.2
+          version: 10
       - name: Setup node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: 18
       - name: Install dependencies
@@ -53,19 +53,19 @@ jobs:
 
   jest-check:
     name: Tests - jest
-    needs: [prettier-check, eslint-check]
+    needs: [ prettier-check, eslint-check ]
     runs-on: ubuntu-latest
     env:
       SKIP_ENV_VALIDATION: ${{ secrets.SKIP_ENV_VALIDATION }}
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Setup pnpm
-        uses: pnpm/action-setup@v2
+        uses: pnpm/action-setup@v4
         with:
-          version: 8.10.2
+          version: 10
       - name: Setup node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: 18
       - name: Install dependencies
@@ -77,19 +77,19 @@ jobs:
 
   nextjs-build-check:
     name: Build nextjs application
-    needs: [jest-check]
+    needs: [ jest-check ]
     runs-on: ubuntu-latest
     env:
       SKIP_ENV_VALIDATION: ${{ secrets.SKIP_ENV_VALIDATION }}
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Setup pnpm
-        uses: pnpm/action-setup@v2
+        uses: pnpm/action-setup@v4
         with:
-          version: 8.10.2
+          version: 10
       - name: Setup node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: 18
       - name: Install dependencies
@@ -101,19 +101,19 @@ jobs:
 
   storybook-build-check:
     name: Build storybook application
-    needs: [jest-check]
+    needs: [ jest-check ]
     runs-on: ubuntu-latest
     env:
       SKIP_ENV_VALIDATION: ${{ secrets.SKIP_ENV_VALIDATION }}
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Setup pnpm
-        uses: pnpm/action-setup@v2
+        uses: pnpm/action-setup@v4
         with:
-          version: 8.10.2
+          version: 10
       - name: Setup node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: 18
       - name: Install dependencies
