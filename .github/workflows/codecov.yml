@@ -1,7 +1,6 @@
 name: Run tests and upload coverage
 
-on:
-  push
+on: push
 
 jobs:
   test:
@@ -28,3 +27,4 @@ jobs:
         uses: codecov/codecov-action@v5
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
+          files: ./coverage/coverage-final.json

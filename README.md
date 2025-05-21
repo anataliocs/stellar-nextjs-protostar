@@ -1,4 +1,5 @@
-# Protostar:  Stellar React Component Code Generator  
+# Protostar: Stellar React Component Code Generator
+
 Next JS 15+, Tailwind CSS 3 and TypeScript
 
 [![Test application generation](https://github.com/anataliocs/stellar-nextjs-protostar/actions/workflows/main.yml/badge.svg)](https://github.com/anataliocs/stellar-nextjs-protostar/actions/workflows/main.yml)
@@ -12,11 +13,17 @@ Next JS 15+, Tailwind CSS 3 and TypeScript
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=anataliocs_stellar-nextjs-protostar&metric=coverage)](https://sonarcloud.io/summary/new_code?id=anataliocs_stellar-nextjs-protostar)
 [![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=anataliocs_stellar-nextjs-protostar&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=anataliocs_stellar-nextjs-protostar)
 [![codecov](https://codecov.io/gh/anataliocs/stellar-nextjs-protostar/graph/badge.svg?token=XWEIY794TB)](https://codecov.io/gh/anataliocs/stellar-nextjs-protostar)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fanataliocs%2Fstellar-nextjs-protostar.svg?type=shield&issueType=license)](https://app.fossa.com/projects/git%2Bgithub.com%2Fanataliocs%2Fstellar-nextjs-protostar?ref=badge_shield&issueType=license)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fanataliocs%2Fstellar-nextjs-protostar.svg?type=shield&issueType=security)](https://app.fossa.com/projects/git%2Bgithub.com%2Fanataliocs%2Fstellar-nextjs-protostar?ref=badge_shield&issueType=security)
 
 <div align="center"> 
 <a href="https://sonarcloud.io/summary/new_code?id=anataliocs_stellar-nextjs-protostar">
-  <img src="https://sonarcloud.io/images/project_badges/sonarcloud-dark.svg" alt="SonarQube Cloud" width="10%" />
+  <img src="https://sonarcloud.io/images/project_badges/sonarcloud-dark.svg" alt="SonarQube Cloud" width="20%" />
 </a>
+</div>
+
+<div align="center"> 
+<a href="https://app.fossa.com/projects/git%2Bgithub.com%2Fanataliocs%2Fstellar-nextjs-protostar?ref=badge_small" alt="FOSSA Status"><img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2Fanataliocs%2Fstellar-nextjs-protostar.svg?type=small"/></a>
 </div>
 
 **Protostar**
