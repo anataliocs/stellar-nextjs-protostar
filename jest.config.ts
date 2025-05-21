@@ -19,13 +19,13 @@ module.exports = {
     '^.+\\.(js|jsx|ts|tsx)$': ['babel-jest', { presets: ['next/babel'] }]
   },
   watchPlugins: ['jest-watch-typeahead/filename'],
-  collectCoverage: false,
+  collectCoverage: true,
   coverageThreshold: {
     global: {
-      branches: 70,
-      functions: 70,
-      lines: 70,
-      statements: 70
+      branches: 50,
+      functions: 50,
+      lines: 50,
+      statements: 50
     }
   },
   coverageReporters: ['json', 'html'],

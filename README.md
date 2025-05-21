@@ -1,12 +1,23 @@
-# Protostar for Next JS 15+, Tailwind CSS 3 and TypeScript
+# Protostar:  Stellar React Component Code Generator  
+Next JS 15+, Tailwind CSS 3 and TypeScript
 
 [![Test application generation](https://github.com/anataliocs/stellar-nextjs-protostar/actions/workflows/main.yml/badge.svg)](https://github.com/anataliocs/stellar-nextjs-protostar/actions/workflows/main.yml)
-
 [![Dependency Review](https://github.com/anataliocs/stellar-nextjs-protostar/actions/workflows/dependency-review.yml/badge.svg)](https://github.com/anataliocs/stellar-nextjs-protostar/actions/workflows/dependency-review.yml)
-
 [![Dependabot Updates](https://github.com/anataliocs/stellar-nextjs-protostar/actions/workflows/dependabot/dependabot-updates/badge.svg)](https://github.com/anataliocs/stellar-nextjs-protostar/actions/workflows/dependabot/dependabot-updates)
-
 [![CodeQL](https://github.com/anataliocs/stellar-nextjs-protostar/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/anataliocs/stellar-nextjs-protostar/actions/workflows/github-code-scanning/codeql)
+[![Sonar Qube](https://github.com/anataliocs/stellar-nextjs-protostar/actions/workflows/sonarqube.yml/badge.svg)](https://github.com/anataliocs/stellar-nextjs-protostar/actions/workflows/sonarqube.yml)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=anataliocs_stellar-nextjs-protostar&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=anataliocs_stellar-nextjs-protostar)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=anataliocs_stellar-nextjs-protostar&metric=bugs)](https://sonarcloud.io/summary/new_code?id=anataliocs_stellar-nextjs-protostar)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=anataliocs_stellar-nextjs-protostar&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=anataliocs_stellar-nextjs-protostar)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=anataliocs_stellar-nextjs-protostar&metric=coverage)](https://sonarcloud.io/summary/new_code?id=anataliocs_stellar-nextjs-protostar)
+[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=anataliocs_stellar-nextjs-protostar&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=anataliocs_stellar-nextjs-protostar)
+[![codecov](https://codecov.io/gh/anataliocs/stellar-nextjs-protostar/graph/badge.svg?token=XWEIY794TB)](https://codecov.io/gh/anataliocs/stellar-nextjs-protostar)
+
+<div align="center"> 
+<a href="https://sonarcloud.io/summary/new_code?id=anataliocs_stellar-nextjs-protostar">
+  <img src="https://sonarcloud.io/images/project_badges/sonarcloud-dark.svg" alt="SonarQube Cloud" width="10%" />
+</a>
+</div>
 
 **Protostar**
 

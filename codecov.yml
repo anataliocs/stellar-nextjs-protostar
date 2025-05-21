@@ -1,0 +1,9 @@
+# Global YAML [lower on hierarchy]
+coverage:
+  precision: 5
+  range: 0..10
+  round: up
+
+# Repository YAML [higher on hierarchy]
+
+# Used in Codecov after updating
