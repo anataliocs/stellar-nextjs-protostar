@@ -1,0 +1,13 @@
+import React from 'react';
+import { Badge, BadgeProps } from '@stellar/design-system';
+
+export default class Secondary extends React.Component<{ children: '' }> {
+render() {
+let { children, ...props } = this.props;
+return (
+<Badge {...props}>
+    {children}
+</Badge>
+);
+}
+}
