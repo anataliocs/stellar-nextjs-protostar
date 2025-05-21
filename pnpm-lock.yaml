@@ -4,10 +4,6 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-overrides:
-  '@types/react': npm:types-react@19.0.0-rc.1
-  '@types/react-dom': npm:types-react-dom@19.0.0-rc.1
-
 importers:
 
   .:
@@ -16,7 +12,7 @@ importers:
         specifier: ^12.0.0
         version: 12.0.0
       '@stellar/stellar-sdk':
-        specifier: ^13.2.0
+        specifier: ^13.3.0
         version: 13.3.0
       '@t3-oss/env-nextjs':
         specifier: 0.13.4
@@ -28,13 +24,13 @@ importers:
         specifier: 15.2.4
         version: 15.2.4(@babel/core@7.27.1)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       passkey-kit:
-        specifier: ^0.10.21
+        specifier: ^0.10.24
         version: 0.10.24
       react:
-        specifier: 19.1.0
+        specifier: ^19.1.0
         version: 19.1.0
       react-dom:
-        specifier: 19.1.0
+        specifier: ^19.1.0
         version: 19.1.0(react@19.1.0)
       tailwind-merge:
         specifier: 3.3.0
@@ -47,34 +43,34 @@ importers:
         version: 3.25.12
     devDependencies:
       '@eslint/compat':
-        specifier: ^1.2.5
+        specifier: ^1.2.9
         version: 1.2.9(eslint@9.27.0(jiti@1.21.7))
       '@eslint/eslintrc':
-        specifier: ^3.2.0
+        specifier: ^3.3.1
         version: 3.3.1
       '@eslint/js':
-        specifier: ^9.19.0
+        specifier: ^9.27.0
         version: 9.27.0
       '@storybook/addon-essentials':
-        specifier: ^8.5.0
+        specifier: ^8.6.14
         version: 8.6.14(storybook@8.6.14(prettier@3.5.3))(types-react@19.0.0-rc.1)
       '@storybook/addon-interactions':
-        specifier: ^8.5.0
+        specifier: ^8.6.14
         version: 8.6.14(storybook@8.6.14(prettier@3.5.3))
       '@storybook/addon-links':
-        specifier: ^8.5.3
+        specifier: ^8.6.14
         version: 8.6.14(react@19.1.0)(storybook@8.6.14(prettier@3.5.3))
       '@storybook/blocks':
-        specifier: ^8.5.0
+        specifier: ^8.6.14
         version: 8.6.14(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(storybook@8.6.14(prettier@3.5.3))
       '@storybook/core':
         specifier: ^8.6.14
         version: 8.6.14(prettier@3.5.3)(storybook@8.6.14(prettier@3.5.3))
       '@storybook/nextjs':
-        specifier: ^8.5.3
+        specifier: ^8.6.14
         version: 8.6.14(esbuild@0.25.4)(next@15.2.4(@babel/core@7.27.1)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(storybook@8.6.14(prettier@3.5.3))(type-fest@2.19.0)(typescript@5.8.3)(webpack-hot-middleware@2.26.1)(webpack@5.99.9(esbuild@0.25.4))
       '@storybook/react':
-        specifier: ^8.5.0
+        specifier: ^8.6.14
         version: 8.6.14(@storybook/test@8.6.14(storybook@8.6.14(prettier@3.5.3)))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(storybook@8.6.14(prettier@3.5.3))(typescript@5.8.3)
       '@storybook/testing-library':
         specifier: ^0.2.2
@@ -134,7 +130,7 @@ importers:
         specifier: 7.37.5
         version: 7.37.5(eslint@9.27.0(jiti@1.21.7))
       eslint-plugin-react-hooks:
-        specifier: ^5.1.0
+        specifier: ^5.2.0
         version: 5.2.0(eslint@9.27.0(jiti@1.21.7))
       eslint-plugin-storybook:
         specifier: 0.12.0
@@ -179,7 +175,7 @@ importers:
         specifier: 0.6.11
         version: 0.6.11(prettier@3.5.3)
       storybook:
-        specifier: ^8.5.3
+        specifier: ^8.6.14
         version: 8.6.14(prettier@3.5.3)
       tailwind-scrollbar:
         specifier: 4.0.2
@@ -1790,6 +1786,9 @@ packages:
 
   '@types/prismjs@1.26.5':
     resolution: {integrity: sha512-AUZTa7hQ2KY5L7AmtSiqxlhWxb4ina0yd8hNbl4TWuqnv/pFP0nDMb3YrfSBf4hJVGLh2YEIBfKaBW/9UEl6IQ==}
+
+  '@types/react@19.1.4':
+    resolution: {integrity: sha512-EB1yiiYdvySuIITtD5lhW4yPyJ31RkJkkDw794LaQYrxCSaQV/47y5o1FMC4zF9ZyjUjzJMZwbovEnT5yHTW6g==}
 
   '@types/resolve@1.20.6':
     resolution: {integrity: sha512-A4STmOXPhMUtHH+S6ymgE2GiBSMqf4oTvcQZMcHzokuTLVYzXTB8ttjcgxOVaAp2lGwEdzZ0J+cRbbeevQj1UQ==}
@@ -7724,6 +7723,10 @@ snapshots:
 
   '@types/prismjs@1.26.5': {}
 
+  '@types/react@19.1.4':
+    dependencies:
+      csstype: 3.1.3
+
   '@types/resolve@1.20.6': {}
 
   '@types/semver@7.7.0': {}
@@ -12146,7 +12149,7 @@ snapshots:
 
   types-react-dom@19.0.0-rc.1:
     dependencies:
-      '@types/react': types-react@19.0.0-rc.1
+      '@types/react': 19.1.4
 
   types-react@19.0.0-rc.1:
     dependencies:

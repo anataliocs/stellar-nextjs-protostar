@@ -1,6 +1,6 @@
 {
   "name": "stellar-nextjs-protostar",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Stellar Next.js boilerplate with husky, lint-staged, eslint + prettier, jest, react-testing-library, storybook, gh actions and plop.",
   "private": true,
   "scripts": {
@@ -26,28 +26,28 @@
   },
   "dependencies": {
     "@simplewebauthn/types": "^12.0.0",
-    "@stellar/stellar-sdk": "^13.2.0",
+    "@stellar/stellar-sdk": "^13.3.0",
     "@t3-oss/env-nextjs": "0.13.4",
     "clsx": "2.1.1",
     "next": "15.2.4",
-    "passkey-kit": "^0.10.21",
-    "react": "react@19.0.0-rc-65a56d0e-20241020",
-    "react-dom": "react-dom@19.0.0-rc-65a56d0e-20241020",
+    "passkey-kit": "^0.10.24",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
     "tailwind-merge": "3.3.0",
     "ts-node": "^10.9.2",
     "zod": "3.25.12"
   },
   "devDependencies": {
-    "@eslint/compat": "^1.2.5",
-    "@eslint/eslintrc": "^3.2.0",
-    "@eslint/js": "^9.19.0",
-    "@storybook/addon-essentials": "^8.5.0",
-    "@storybook/addon-interactions": "^8.5.0",
-    "@storybook/addon-links": "^8.5.3",
-    "@storybook/blocks": "^8.5.0",
+    "@eslint/compat": "^1.2.9",
+    "@eslint/eslintrc": "^3.3.1",
+    "@eslint/js": "^9.27.0",
+    "@storybook/addon-essentials": "^8.6.14",
+    "@storybook/addon-interactions": "^8.6.14",
+    "@storybook/addon-links": "^8.6.14",
+    "@storybook/blocks": "^8.6.14",
     "@storybook/core": "^8.6.14",
-    "@storybook/nextjs": "^8.5.3",
-    "@storybook/react": "^8.5.0",
+    "@storybook/nextjs": "^8.6.14",
+    "@storybook/react": "^8.6.14",
     "@storybook/testing-library": "^0.2.2",
     "@testing-library/jest-dom": "6.6.3",
     "@testing-library/react": "16.3.0",
@@ -67,7 +67,7 @@
     "eslint-plugin-import-helpers": "2.0.1",
     "eslint-plugin-prettier": "5.4.0",
     "eslint-plugin-react": "7.37.5",
-    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-storybook": "0.12.0",
     "eslint-plugin-testing-library": "7.2.1",
     "globals": "^16.1.0",
@@ -82,7 +82,7 @@
     "postcss": "8.5.3",
     "prettier": "3.5.3",
     "prettier-plugin-tailwindcss": "0.6.11",
-    "storybook": "^8.5.3",
+    "storybook": "^8.6.14",
     "tailwind-scrollbar": "4.0.2",
     "tailwindcss": "4.1.7",
     "tsx": "^4.19.4",
@@ -94,10 +94,5 @@
       "pnpm eslint:format"
     ]
   },
-  "pnpm": {
-    "overrides": {
-      "@types/react": "npm:types-react@19.0.0-rc.1",
-      "@types/react-dom": "npm:types-react-dom@19.0.0-rc.1"
-    }
-  }
+  "pnpm": {}
 }
