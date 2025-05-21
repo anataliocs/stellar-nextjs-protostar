@@ -31,8 +31,8 @@
     "clsx": "2.1.1",
     "next": "15.2.4",
     "passkey-kit": "^0.10.21",
-    "react": "19.0.0-rc-65a56d0e-20241020",
-    "react-dom": "19.0.0-rc-65a56d0e-20241020",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
     "tailwind-merge": "3.3.0",
     "ts-node": "^10.9.2",
     "zod": "3.25.12"
