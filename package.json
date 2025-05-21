@@ -1,7 +1,7 @@
 {
-  "name": "nextjs-boilerplate",
+  "name": "stellar-nextjs-protostar",
   "version": "0.1.0",
-  "description": "Next.js boilerplate with husky, lint-staged, eslint + prettier, jest, react-testing-library, storybook, ghaction and plop.",
+  "description": "Stellar Next.js boilerplate with husky, lint-staged, eslint + prettier, jest, react-testing-library, storybook, ghaction and plop.",
   "private": true,
   "scripts": {
     "dev": "next dev --turbo",
@@ -18,13 +18,16 @@
     "storybook": "storybook dev -p 6006",
     "storybook:build": "storybook build",
     "postinstall": "husky",
-    "generate": "pnpm plop --plopfile ./.plop/plopfile.js"
+    "generate": "pnpm plop --plopfile .plop/plopfile.ts"
   },
   "engines": {
     "node": ">=18.20.2"
   },
   "packageManager": "pnpm@9.1.1+sha256.9551e803dcb7a1839fdf5416153a844060c7bce013218ce823410532504ac10b",
   "dependencies": {
+    "@simplewebauthn/types": "^12.0.0",
+    "@stellar/stellar-sdk": "^13.2.0",
+    "passkey-kit": "^0.10.21",
     "@t3-oss/env-nextjs": "0.12.0",
     "clsx": "2.1.1",
     "next": "15.1.6",
