@@ -9,6 +9,17 @@
 
 🚀 Boilerplate Next.js, Tailwind, TypeScript, ESLint, Prettier, Husky, Lint-Staged, Jest, React Testing Library, PostCSS, Storybook, Plop, GH actions
 
+## Getting Started
+
+```bash
+pnpm create next-app -e https://github.com/anataliocs/stellar-nextjs-protostar
+```
+
+Then:
+```bash
+pnpm generate
+```
+
 ## :rocket: Features
 
 Developer experience first:
@@ -74,7 +85,7 @@ Result (if you chose an atom component):
 └── components
       └── atoms
         └── Button
-          ├── index.ts
+          ├── component.ts
           ├── Button.stories.tsx
           ├── Button.test.tsx
           └── Button.tsx

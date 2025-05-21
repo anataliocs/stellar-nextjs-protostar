@@ -1,32 +1,12 @@
-import component from './settings/component';
+// plopfile.ts
+import { NodePlopAPI } from 'plop';
 
-interface ExportsParams {
-  plop: {
-    setHelper(description: string, arg1: (text: string) => string): string;
+import reactComponent from './reactComponent';
 
-    setGenerator: (
-      description: string,
-      arg1: {
-        description: string;
-        prompts: (
-          | { type: string; name: string; message: string; choices: string[] }
-          | {
-              type: string;
-              name: string;
-              message: string;
-              choices?: undefined;
-            }
-        )[];
-        actions: { type: string; path: string; templateFile: string }[];
-      }
-    ) => void;
-  };
-}
-
-// Add here more generators
-module.exports = function ({ plop }: ExportsParams) {
-  plop.setGenerator('base', {
-    description: 'Project skeleton',
+// eslint-disable-next-line import/no-anonymous-default-export
+export default function (plop: NodePlopAPI) {
+  plop.setGenerator('init', {
+    description: 'Run this first!  Create and initialize project skeleton',
     prompts: [
       {
         type: 'input',
@@ -43,9 +23,9 @@ module.exports = function ({ plop }: ExportsParams) {
     ]
   });
 
-  plop.setGenerator('component', component);
+  plop.setGenerator('react component', reactComponent);
 
   plop.setHelper('upperCase', function (text: string): string {
     return text.toUpperCase();
   });
-};
+}

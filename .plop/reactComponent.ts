@@ -1,4 +1,17 @@
-module.exports = {
+export interface ReactComponent {
+  description: string;
+  prompts: (
+    | { type: string; name: string; message: string; choices: string[] }
+    | {
+        type: string;
+        name: string;
+        message: string;
+      }
+  )[];
+  actions: { type: string; path: string; templateFile: string }[];
+}
+
+const reactComponent: ReactComponent = {
   description: 'Creates a new component',
   prompts: [
     {
@@ -39,4 +52,6 @@ module.exports = {
       templateFile: 'templates/component/test.tsx.hbs'
     }
   ]
-};
+} as ReactComponent;
+
+export default reactComponent;
