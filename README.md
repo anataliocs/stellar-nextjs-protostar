@@ -1,10 +1,11 @@
 # Protostar for Next JS 15+, Tailwind CSS 3 and TypeScript
 
 **Protostar**
+
 > BB star in the earliest stage of Stellar evolution
-> 
+>
 > Accumulating traction and vibes from the ecosystem
-> 
+>
 > Precursor stage before nuclear fusion (Product Market Fit) 🌟
 
 🚀 Boilerplate Next.js, Tailwind, TypeScript, ESLint, Prettier, Husky, Lint-Staged, Jest, React Testing Library, PostCSS, Storybook, Plop, GH actions
@@ -16,6 +17,7 @@ pnpm create next-app -e https://github.com/anataliocs/stellar-nextjs-protostar
 ```
 
 Then:
+
 ```bash
 pnpm generate
 ```

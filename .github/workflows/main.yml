@@ -6,7 +6,7 @@ on:
       - main
 
   pull_request:
-    types: [ opened, synchronize, reopened ]
+    types: [opened, synchronize, reopened]
 
 jobs:
   prettier-check:
@@ -53,7 +53,7 @@ jobs:
 
   jest-check:
     name: Tests - jest
-    needs: [ prettier-check, eslint-check ]
+    needs: [prettier-check, eslint-check]
     runs-on: ubuntu-latest
     env:
       SKIP_ENV_VALIDATION: ${{ secrets.SKIP_ENV_VALIDATION }}
@@ -77,7 +77,7 @@ jobs:
 
   nextjs-build-check:
     name: Build nextjs application
-    needs: [ jest-check ]
+    needs: [jest-check]
     runs-on: ubuntu-latest
     env:
       SKIP_ENV_VALIDATION: ${{ secrets.SKIP_ENV_VALIDATION }}
@@ -101,7 +101,7 @@ jobs:
 
   storybook-build-check:
     name: Build storybook application
-    needs: [ jest-check ]
+    needs: [jest-check]
     runs-on: ubuntu-latest
     env:
       SKIP_ENV_VALIDATION: ${{ secrets.SKIP_ENV_VALIDATION }}
