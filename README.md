@@ -7,6 +7,7 @@ Next JS 15+, Tailwind CSS 3 and TypeScript
 [![Dependabot Updates](https://github.com/anataliocs/stellar-nextjs-protostar/actions/workflows/dependabot/dependabot-updates/badge.svg)](https://github.com/anataliocs/stellar-nextjs-protostar/actions/workflows/dependabot/dependabot-updates)
 [![CodeQL](https://github.com/anataliocs/stellar-nextjs-protostar/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/anataliocs/stellar-nextjs-protostar/actions/workflows/github-code-scanning/codeql)
 [![Sonar Qube](https://github.com/anataliocs/stellar-nextjs-protostar/actions/workflows/sonarqube.yml/badge.svg)](https://github.com/anataliocs/stellar-nextjs-protostar/actions/workflows/sonarqube.yml)
+[![Run tests and upload coverage](https://github.com/anataliocs/stellar-nextjs-protostar/actions/workflows/codecov.yml/badge.svg)](https://github.com/anataliocs/stellar-nextjs-protostar/actions/workflows/codecov.yml)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=anataliocs_stellar-nextjs-protostar&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=anataliocs_stellar-nextjs-protostar)
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=anataliocs_stellar-nextjs-protostar&metric=bugs)](https://sonarcloud.io/summary/new_code?id=anataliocs_stellar-nextjs-protostar)
 [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=anataliocs_stellar-nextjs-protostar&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=anataliocs_stellar-nextjs-protostar)
@@ -23,7 +24,7 @@ Next JS 15+, Tailwind CSS 3 and TypeScript
 </div>
 
 <div align="center"> 
-<a href="https://app.fossa.com/projects/git%2Bgithub.com%2Fanataliocs%2Fstellar-nextjs-protostar?ref=badge_small" alt="FOSSA Status"><img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2Fanataliocs%2Fstellar-nextjs-protostar.svg?type=small"/></a>
+<a href="https://app.fossa.com/projects/git%2Bgithub.com%2Fanataliocs%2Fstellar-nextjs-protostar?ref=badge_small" alt="FOSSA Status"><img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2Fanataliocs%2Fstellar-nextjs-protostar.svg?type=small" alt="FOSSA Status"/></a>
 </div>
 
 **Protostar**
