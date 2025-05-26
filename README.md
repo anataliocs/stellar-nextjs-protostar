@@ -62,7 +62,7 @@ Developer experience first:
 - Linter with [ESLint](https://eslint.org)
 - Code Formatter with [Prettier](https://prettier.io)
 - [Husky](https://typicode.github.io/husky/#/) for Git Hooks
-    - Pre-commit hook to ensure clear commit msg
+  - Pre-commit hook to ensure clear commit msg
 - [Lint-staged](https://github.com/okonet/lint-staged) for running linters on Git staged files
 - Testing with [Jest](https://jestjs.io/) and [react-testing-library](https://testing-library.com/)
 - Absolute Imports using `@` prefix
