@@ -1,7 +1,7 @@
 // plopfile.ts
 import { NodePlopAPI } from 'plop';
 
-import reactComponent from './reactComponent';
+import badge from './badgeComponent';
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default function (plop: NodePlopAPI) {
@@ -23,7 +23,7 @@ export default function (plop: NodePlopAPI) {
     ]
   });
 
-  plop.setGenerator('react component', reactComponent);
+  plop.setGenerator('badge variant', badge);
 
   plop.setHelper('upperCase', function (text: string): string {
     return text.toUpperCase();
