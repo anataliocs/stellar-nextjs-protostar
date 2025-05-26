@@ -1,0 +1,25 @@
+import { render, screen } from '@/tests/test-utils';
+
+import { {{pascalCase variant}} } from '.';
+
+describe('{{pascalCase variant}}', () => {
+  it('should render the heading', () => {
+    render(<{{pascalCase variant}} />);
+
+    // Assert
+    screen.getByRole('heading', { name: /{{pascalCase variant}}/i });
+  });
+});
+
+import { render, screen } from '@/tests/test-utils';
+
+import Secondary from './Secondary';
+
+describe('Secondary', () => {
+it('should render the heading', () => {
+render(<Secondary children={'title'}></Secondary>);
+
+// Assert
+screen.getByRole('heading', { name: /Secondary/i });
+});
+});
