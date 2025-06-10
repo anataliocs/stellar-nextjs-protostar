@@ -28,7 +28,7 @@
     "@simplewebauthn/types": "^12.0.0",
     "@stellar/design-system": "^3.1.1",
     "@stellar/stellar-sdk": "^13.3.0",
-    "@t3-oss/env-nextjs": "0.13.4",
+    "@t3-oss/env-nextjs": "0.13.8",
     "@tailwindcss/postcss": "^4.1.7",
     "clsx": "2.1.1",
     "next": "15.2.4",
