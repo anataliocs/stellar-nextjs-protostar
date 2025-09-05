@@ -185,10 +185,10 @@ importers:
         version: 8.6.14(prettier@3.5.3)
       tailwind-scrollbar:
         specifier: 4.0.2
-        version: 4.0.2(react@19.1.0)(tailwindcss@4.1.7)
+        version: 4.0.2(react@19.1.0)(tailwindcss@4.1.13)
       tailwindcss:
-        specifier: 4.1.7
-        version: 4.1.7
+        specifier: 4.1.13
+        version: 4.1.13
       tsx:
         specifier: ^4.19.4
         version: 4.19.4
@@ -1411,6 +1411,7 @@ packages:
 
   '@simplewebauthn/types@12.0.0':
     resolution: {integrity: sha512-q6y8MkoV8V8jB4zzp18Uyj2I7oFp2/ONL8c3j8uT06AOWu3cIChc1au71QYHrP2b+xDapkGTiv+9lX7xkTlAsA==}
+    deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
 
   '@sinclair/typebox@0.27.8':
     resolution: {integrity: sha512-+Fj43pSMwJs4KRrH/938Uf+uAELIgVBmQzg/q1YG10djyfA3TnrU8N8XzqCh/okZdszqBQTZf96idMfE5lnwTA==}
@@ -5578,6 +5579,9 @@ packages:
     engines: {node: '>=12.13.0'}
     peerDependencies:
       tailwindcss: 4.x
+
+  tailwindcss@4.1.13:
+    resolution: {integrity: sha512-i+zidfmTqtwquj4hMEwdjshYYgMbOrPzb9a0M3ZgNa0JMoZeFC6bxZvO8yr8ozS6ix2SDz0+mvryPeBs2TFE+w==}
 
   tailwindcss@4.1.7:
     resolution: {integrity: sha512-kr1o/ErIdNhTz8uzAYL7TpaUuzKIE6QPQ4qmSdxnoX/lo+5wmUHQA6h3L5yIqEImSRnAAURDirLu/BgiXGPAhg==}
@@ -12346,12 +12350,14 @@ snapshots:
 
   tailwind-merge@3.3.0: {}
 
-  tailwind-scrollbar@4.0.2(react@19.1.0)(tailwindcss@4.1.7):
+  tailwind-scrollbar@4.0.2(react@19.1.0)(tailwindcss@4.1.13):
     dependencies:
       prism-react-renderer: 2.4.1(react@19.1.0)
-      tailwindcss: 4.1.7
+      tailwindcss: 4.1.13
     transitivePeerDependencies:
       - react
+
+  tailwindcss@4.1.13: {}
 
   tailwindcss@4.1.7: {}
 
